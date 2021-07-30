@@ -67,6 +67,7 @@
   ]
 	settings: {
 		spark.additional.pex: mlflow_udf.pex
+		spark.pre_punchline_execution: nodes.my_use_case.my_node.mlflow_model_loading_pre_execution.MlflowModelLoadingPreExecution		
 		spark.punch.mlflow.model.type : classification
 		spark.punch.mlflow.model.registry.id : model1
 		spark.punch.mlflow.model.registry.stage : production
